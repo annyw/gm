@@ -34,7 +34,7 @@ a:focus {
 }
 
 section {
-/*    overflow: hidden;*/
+  /*  overflow: hidden;*/
     background-color: #B3D9EB;
 }
 
@@ -54,12 +54,12 @@ background-color: #fff;
 }
 
 .box-head {
-    z-index: 999;
+    z-index: 2;
     position: absolute;
     top: 50px;
     right: 250px;
     max-height: 600px;
-    transition: all 1s ease-out;
+    transition: all 1.5s ease-in;
 }
 
 .box-body {
@@ -70,5 +70,52 @@ background-color: #fff;
 }
 
 .seperate {
-    transform: translate3d(-300px, 150px, 0);
+    transform: translate3d(-300px, -100px, 0);
+}
+
+.relative-position {
+    position: relative;
+}
+
+.phone-slide > img:first-child {
+    z-index: 3;
+}
+
+.slide {
+   top: 67px;
+    width: 253px;
+    right: 385px;
+    z-index: 2;
+}
+
+.device {
+    width: 350px;
+    right: 300px;
+    top: 25px;
+    z-index: 1;
+}
+
+.land {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    width: 380px;
+    z-index: 1;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    position: fixed;
+    display: block;
+}
+
+#firstSection {
+    z-index: 3;
+}
+
+.desc {
+    float: left;
 }

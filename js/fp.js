@@ -10,6 +10,7 @@ $header_top.find('a').on('click', function() {
 
 // fullpage customization
 $('#fullpage').fullpage({
+	scrollHorizontally: true,
     sectionsColor: ['#B3D9EB'],
     sectionSelector: '.vertical-scrolling',
     slideSelector: '.horizontal-scrolling',
@@ -25,11 +26,28 @@ $('#fullpage').fullpage({
         //     $('#fp-nav').hide();
         // }
     },
-    onLeave: function(index, nextIndex, direction) {
-        if (index == 6) {
-            $('#fp-nav').show();
+
+    onLeave: function(index, nextIndex, direction){
+        //leaving 1st section
+        if(index == 1){
+           $('.hide').addClass('show');
         }
+        //back to the 1st section
+        if(nextIndex == 1){
+            $('.hide').removeClass('show');
+        }
+
+        //leaving 1st section
+        if(index == 1){
+           $('.hide').fadeIn();
+        }
+        //back to the 1st section
+        if(nextIndex == 1){
+            $('.hide').fadeOut();
+        }
+    
     },
+
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
         if (anchorLink == 'fifthSection' && slideIndex == 1) {
             $.fn.fullpage.setAllowScrolling(false, 'up');
