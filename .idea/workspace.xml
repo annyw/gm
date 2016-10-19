@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="51c3d711-4787-4757-8332-a3d7f1cfe8f1" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/.github/ISSUE_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/.github/PULL_REQUEST_TEMPLATE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.extensions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/dist/jquery.fullpage.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/apple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/autoHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/autoplayVideoAndAudio.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/backgroundVideo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/backgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/backgroundsFixed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/continuous.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/css3.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/demoPage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/easing.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/examples.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/examples.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/fixedHeaders.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/gradientBackgrounds.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/bg1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/bg2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/bg3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/bg4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/bg5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/compatible.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/copyright.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/example.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/example2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/flowers.mp4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/flowers.webm" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/fullPage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/horse.mp3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/horse.ogg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/intro.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone-green.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone-red.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone-two.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone-yellow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/iphone4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/slider.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/tablets.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/imgs/used-by-fullpage.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/looping.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/methods.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/navigationH.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/navigationV.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/noAnchor.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/normalScroll.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/oneSection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/responsiveAutoHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/responsiveHeight.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/responsiveWidth.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/scrollBar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/scrolling.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/scrollingSpeed.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/examples/simple.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/jquery.fullPage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/jquery.fullPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/jquery.fullPage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/pure javascript (Alpha)/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/pure javascript (Alpha)/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/pure javascript (Alpha)/javascript.fullPage.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/tests/functions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/tests/functions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/vendors/jquery.easings.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/vendors/scrolloverflow.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fullPage.js-master/vendors/scrolloverflow.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/noframework.waypoints.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/noframework.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/shortcuts/infinite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/shortcuts/infinite.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/shortcuts/inview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/shortcuts/inview.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/shortcuts/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/shortcuts/sticky.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/waypoints.debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/zepto.waypoints.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/lib/zepto.waypoints.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/licenses.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/adapters/jquery-zepto-fn-extension.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/adapters/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/adapters/noframework.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/adapters/zepto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/context.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/group.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/shortcuts/infinite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/shortcuts/inview.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/shortcuts/sticky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/src/waypoint.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/adapter-fn-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/context-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/debug-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/fixtures/infinite.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/fixtures/standard.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/fixtures/sticky.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/group-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/infinite-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/inview-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/coffee-script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/jasmine-html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/jasmine-jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/jasmine.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/jasmine.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/require.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/lib/testloader.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/sticky-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/test/waypoint-spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/imakewebthings-waypoints-34d9f6d/testem.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index-test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/Gruntfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/build/css/jquery.scrollSections-0.4.3.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/build/css/jquery.scrollSections-0.4.3.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/build/js/jquery.scrollSections-0.4.3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/build/js/jquery.scrollSections-0.4.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/callbacks.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/customNavigation.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/js/plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/js/vendor/jquery-1.7.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/example/js/vendor/modernizr-2.5.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/src/css/jquery.scrollSections.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/src/js/jquery.scrollSections.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/jQuery.scrollSections-master/src/less/jquery.scrollSections.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/main.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/fp.js" afterPath="$PROJECT_DIR$/js/fp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/test.js" afterPath="$PROJECT_DIR$/js/test.js" />
+    </list>
+    <ignored path="golden_melody_1.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="golden_melody_1" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1380">
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/test.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <exe-path />
+    <config-path />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-254" />
+    <option name="y" value="-1057" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="golden_melody_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js/jquery-3.1.1.min.js" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51c3d711-4787-4757-8332-a3d7f1cfe8f1" name="Default" comment="" />
+      <created>1476874368627</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1476874368627</updated>
+      <workItem from="1476874370929" duration="506000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="506000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-254" y="-1057" width="1920" height="1057" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12427594" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

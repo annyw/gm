@@ -35,7 +35,7 @@ a:focus {
 
 section {
   /*  overflow: hidden;*/
-    background-color: #B3D9EB;
+  /*  background-color: #B3D9EB;*/
 }
 
 /* --- anchor radius --- */
@@ -52,6 +52,12 @@ background-color: #fff;
 .title-text {
     max-height: 80px;
 }
+/*
+.box {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}*/
 
 .box-head {
     z-index: 2;
@@ -67,40 +73,51 @@ background-color: #fff;
     right: 170px;
     top: 15px;
     max-height: 592px;
+    z-index: 1;
 }
 
 .seperate {
     transform: translate3d(-300px, -100px, 0);
 }
 
-.relative-position {
-    position: relative;
-}
-
-.phone-slide > img:first-child {
-    z-index: 3;
-}
-
-.slide {
-   top: 67px;
-    width: 253px;
-    right: 385px;
-    z-index: 2;
-}
-
-.device {
-    width: 350px;
-    right: 300px;
-    top: 25px;
-    z-index: 1;
-}
-
 .land {
+
     position: absolute;
-    top: 250px;
+    /*top: -100%;*/
+    top: 220px;
     left: 150px;
     width: 380px;
     z-index: 1;
+    display: none;
+   /* transform: translate3d(-300px, -100px, 0);
+    opacity: 0;
+    transition: all 1s ease-in;*/
+
+}
+
+.add {
+    transform: translate3d(0px, 0px, 0);
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    width: 380px;
+    z-index: 1;
+}
+
+
+.gif1,
+.gif3 {
+    top: 166px;
+}
+
+.gif2 {
+    top: 19px;
+    left: 153px;
+}
+
+.opacity {
+   /* opacity: 1;
+    transition: all 1.5s ease-in;*/
 }
 
 .hide {

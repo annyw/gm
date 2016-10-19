@@ -1,73 +1,111 @@
-// variables
-var $header_top = $('.header-top');
-var $nav = $('nav');
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+
+        //Navigation
+        menu: '#menu',
+        lockAnchors: false,
+        anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixSection'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['首頁', '視設', '公關', '宣傳'],
+        showActiveTooltip: false,
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+
+        //Scrolling
+        css3: true,
+        scrollingSpeed: 750,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: false,
+        continuousHorizontal: false,
+        scrollHorizontally: true,
+        interlockedSlides: false,
+        resetSliders: false,
+        fadingEffect: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        scrollOverflowOptions: null,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+        bigSectionsDestination: null,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+        //Design
+        controlArrows: true,
+        verticalCentered: true,
+        sectionsColor : ['#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB', '#B3D9EB',],
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        fixedElements: '#header, .footer',
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+        responsiveSlides: false,
+
+        //Custom selectors
+        sectionSelector: '.vertical-scrolling',
+        slideSelector: '.slide',
+
+        //events
+        onLeave: function(index, nextIndex, direction){
+            console.log("Index: " + index );
+            console.log("Next Index: " + nextIndex );
+
+            if(nextIndex == 2) {
+                $('.land').addClass('add');
+            }
+
+           else if(nextIndex == 1 && direction =='up') {
+                $('.land').removeClass('add');
+            }
+            
+           
+
+            // if(nextIndex == 3) {
+            //     $('.gif2').fadeIn(300);
+            // }
+            // else if(nextIndex == 2 && direction =='up') {
+            //     $('.gif2').fadeOut(300);
+            // }
+            // else {
+            //     $('.gif2').hide();
+            // }
 
 
-// toggle menu
-$header_top.find('a').on('click', function() {
-    $(this).parent().toggleClass('open-menu');
-});
+            // if(nextIndex == 4) {
+            //     $('.gif3').fadeIn(300);
+            // }
+            // else if(nextIndex == 3 && direction =='up') {
+            //     $('.gif3').fadeOut(300);
+            // }
 
-// fullpage customization
-$('#fullpage').fullpage({
-	scrollHorizontally: true,
-    sectionsColor: ['#B3D9EB'],
-    sectionSelector: '.vertical-scrolling',
-    slideSelector: '.horizontal-scrolling',
-    navigation: true,
-    slidesNavigation: true,
-    controlArrows: false,
-    anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection', 'sixSection'],
-    menu: '#menu',
-    afterLoad: function(anchorLink, index) {
-        $header_top.css('background', 'rgba(0, 47, 77, .3)');
-        $nav.css('background', 'rgba(0, 47, 77, .25)');
-        // if (index == ) {
-        //     $('#fp-nav').hide();
-        // }
-    },
+            // else {
+            //     $('.gif3').hide();
+            // }
+            // }
 
-    onLeave: function(index, nextIndex, direction){
-        //leaving 1st section
-        if(index == 1){
-           $('.hide').addClass('show');
-        }
-        //back to the 1st section
-        if(nextIndex == 1){
-            $('.hide').removeClass('show');
-        }
+            // console.log(index);
+        },
 
-        //leaving 1st section
-        if(index == 1){
-           $('.hide').fadeIn();
-        }
-        //back to the 1st section
-        if(nextIndex == 1){
-            $('.hide').fadeOut();
-        }
-    
-    },
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterResponsive: function(isResponsive){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+        });
 
-    afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {
-        if (anchorLink == 'fifthSection' && slideIndex == 1) {
-            $.fn.fullpage.setAllowScrolling(false, 'up');
-            $header_top.css('background', 'transparent');
-            $nav.css('background', 'transparent');
-            $(this).css('background', '#374140');
-            $(this).find('h2').css('color', 'white');
-            $(this).find('h3').css('color', 'white');
-            $(this).find('p').css({
-                'color': '#DC3522',
-                'opacity': 1,
-                'transform': 'translateY(0)'
-            });
-        }
-    },
-    onSlideLeave: function(anchorLink, index, slideIndex, direction) {
-        if (anchorLink == 'fifthSection' && slideIndex == 1) {
-            $.fn.fullpage.setAllowScrolling(false, 'up');
-            $header_top.css('background', 'rgba(0, 47, 77, .3)');
-            $nav.css('background', 'rgba(0, 47, 77, .25)');
-        }
-    }
-});
+         $('.box-head').addClass('seperate');
+    });
+
