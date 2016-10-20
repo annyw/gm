@@ -81,18 +81,25 @@ background-color: #fff;
 }
 
 .land {
-
     position: absolute;
-    /*top: -100%;*/
     top: 220px;
     left: 150px;
     width: 380px;
     z-index: 1;
     display: none;
-   /* transform: translate3d(-300px, -100px, 0);
-    opacity: 0;
-    transition: all 1s ease-in;*/
+}
 
+.same-setting {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    width: 380px;
+}
+
+.land {
+    top: 220px;
+    left: 150px;
+    width: 380px;
 }
 
 .add {
@@ -107,10 +114,12 @@ background-color: #fff;
 
 .gif1,
 .gif3 {
-    top: 166px;
+    top: 165px;
+    left: 151px;    
 }
 
-.gif2 {
+.gif2,
+.gif4 {
     top: 19px;
     left: 153px;
 }
