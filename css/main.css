@@ -1,7 +1,10 @@
+@import url(http://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
 * {
-    font-size: 16px;
+    font-size: 18px;
     color: #505458;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'cwTeXYen', 'Open Sans', sans-serif;
+    font-weight: 100;
     line-height: 1.5 !important;
     box-sizing: border-box;
 }
@@ -80,21 +83,22 @@ background-color: #fff;
     transform: translate3d(-300px, -100px, 0);
 }
 
-.land {
+/*.gif-z-index {
+    z-index: 3;
     position: absolute;
-    top: 220px;
-    left: 150px;
-    width: 380px;
-    z-index: 1;
-    display: none;
+}*/
+
+.text {
+    z-index: 2;
 }
 
 .same-setting {
-    position: absolute;
-    z-index: 1;
     display: none;
     width: 380px;
+    z-index: 1;
+    position: absolute;
 }
+
 
 .land {
     top: 220px;
@@ -102,26 +106,36 @@ background-color: #fff;
     width: 380px;
 }
 
-.add {
-    transform: translate3d(0px, 0px, 0);
-    position: absolute;
-    top: 220px;
+
+.gif1 {
+    top: 68px;
+    left: 150px;    
+}
+
+.gif2 {
+    top: 166px;
     left: 150px;
-    width: 380px;
-    z-index: 1;
 }
 
-
-.gif1,
 .gif3 {
-    top: 165px;
-    left: 151px;    
+    top: 18px;
+    left: 153px;
 }
 
-.gif2,
 .gif4 {
-    top: 19px;
-    left: 153px;
+    top: 36px;
+    left: 150px;
+}
+
+.gif5 {
+    top: 30px;
+    left: 204px;
+    width: 241px;
+}
+
+.gif6 {
+    left: 150px;
+    top: 102px;
 }
 
 .opacity {
